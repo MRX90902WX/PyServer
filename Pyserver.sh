@@ -60,8 +60,10 @@ clear
 case $opcion in
 1)
 #! /bin/bash
+cd
+ls
 setterm -foreground green
-echo -n "[+]Escriba su ruta donde estan los archivos >> "
+echo -n "[+]Escriba lu ruta donde estan los archivos >> "
 read a
 cd $HOME/$a
 echo ""
@@ -79,8 +81,10 @@ python -m http.server $b
 ;;
 2)
 #! /bin/bash
+cd /sdcard
+ls
 setterm -foreground green
-echo -n "[+]Escriba su ruta donde estan los archivos ej.[Pictures] >> "
+echo -n "[+]Escriba lu ruta donde estan los archivos ej.[Pictures] >> "
 read a
 cd /sdcard/$a
 echo ""
