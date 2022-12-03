@@ -75,9 +75,11 @@ echo ""
 sleep 1
 echo "Ejecutando localhost:$b en Diretorios Termux $a"
 echo "Listo puedes conectarlo a un tunel ssh, ngrok o cloudflared"
+echo ""
 echo "-->ssh -R 80:localhost:$b nokey@localhost.run<--"
 echo "-->ngrok http $b<--"
 echo "-->cloudflared -url localhost:$b<--"
+echo ""
 python -m http.server $b
 #
 ;;
@@ -96,9 +98,11 @@ echo ""
 sleep 1
 echo "Ejecutando localhost:$b en Directorio /sdcard/$a"
 echo "Listo puedes conectarlo a un tunel ssh, ngrok o cloudflared"
+echo ""
 echo "-->ssh -R 80:localhost:$b nokey@localhost.run<--"
 echo "-->ngrok http $b<--"
 echo "-->cloudflared -url localhost:$b<--"
+echo ""
 python -m http.server $b
 #
 ;;
@@ -113,9 +117,11 @@ sleep 1
 setterm -foreground green
 echo "Ejecutando localhost:$b en /sdcard"
 echo "Listo puedes conectarlo a un tunel ssh, ngrok o cloudflared"
+echo ""
 echo "-->ssh -R 80:localhost:$b nokey@localhost.run<--"
 echo "-->ngrok http $b<--"
 echo "-->cloudflared -url localhost:$b<--"
+echo ""
 python -m http.server $b
 #
 ;;
