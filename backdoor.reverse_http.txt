@@ -14,6 +14,10 @@ escriba Download o Pictures
 
 y escriba un puerto ej. 4444
 
+O esta la opción 3--> mi preferida jajj
+
+Escriba un puerto 4444 y listo
+
 y despues.
 
 Le pedimos que habra una nueva ventana y ejecute 
@@ -24,7 +28,7 @@ ej.
 
 ssh, ngrok , cloudflared
 
-en cualquier tunel aue haga le va a dar un link 
+en cualquier tunel que haga le va a dar un link 
 
 se lo pedimos que nos envie y listo 
 
