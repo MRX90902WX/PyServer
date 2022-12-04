@@ -63,7 +63,7 @@ case $opcion in
 1)
 #! /bin/bash
 setterm -foreground green
-echo "[+]Directorio actual -> [data/data/com.termux/files/home]"
+echo "[+]Directorio actual -> [/data/data/com.termux/files/home]"
 cd
 ls
 setterm -foreground green
@@ -88,7 +88,7 @@ python -m http.server $b
 2)
 #! /bin/bash
 setterm -foreground green
-echo "[+]Directorio actual [/data/data/com.termux/files/home/storage/shared]
+echo "[+]Directorio actual [/data/data/com.termux/files/home/storage/shared]"
 cd /sdcard
 ls
 setterm -foreground green
